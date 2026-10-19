@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RaktarApp
 {
-    internal class Termek
+    public class Termek
     {
         public string Cikkszam { get; set; }
         protected int alapar;
@@ -42,7 +42,7 @@ namespace RaktarApp
         }
         public override string ToString()
         {
-            return $"Cikkszám: {Cikkszam}, Alapár: {alapar}";
+            return $"Termék: {Cikkszam} | Egységár: {alapar} Ft";
         }
     }
 }
