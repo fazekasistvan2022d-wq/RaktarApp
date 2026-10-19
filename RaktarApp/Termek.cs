@@ -15,7 +15,7 @@ namespace RaktarApp
             {
                 if(value <= 0)
                 {
-                    value = 1_000;
+                    alapar = 1000;
                 }
                 else
                 {
@@ -32,7 +32,7 @@ namespace RaktarApp
         public Termek(string cikkszam, int alapar)
         {
             Cikkszam = cikkszam;
-            this.alapar = alapar;
+            Alapar = alapar;
             osszesTermekSzama++;
         }
 
